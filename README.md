@@ -16,7 +16,7 @@ bitflyer-client is a python client (sync/async) library for bitflyer api
 #
 from bitflyer_client.sync import Client
 
-client = Clinet(public_key='your api key', private_key='your api secret')
+client = Client(public_key='your api key', private_key='your api secret')
 response = client.markets()
 print(response.status_code, response.json())
 
